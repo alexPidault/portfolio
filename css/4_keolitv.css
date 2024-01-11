@@ -1,0 +1,705 @@
+/* ========================================================================== */
+/* CSS KEOLI TV - PORTFOLIO
+/* Copyright 2016, Alexandre PIDAULT
+/* ========================================================================== */
+
+
+.project-picture--1 {
+    display: block;
+    width: 450px;
+    height: 685px;
+    margin: auto;
+    left: 7%;
+    background-image: url(../images/img_preview_keolitv.png);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 50px;
+}
+
+.project-picture--1:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 800px;
+    height: 1500px;
+background: -webkit-linear-gradient(rgba(219,15,79,1) 0%, rgba(219,15,79,1) 87%, rgba(219,15,79,0) 100%);
+background: -o-linear-gradient(rgba(219,15,79,1) 0%, rgba(219,15,79,1) 87%, rgba(219,15,79,0) 100%);
+background: linear-gradient(rgba(219,15,79,1) 0%, rgba(219,15,79,1) 87%, rgba(219,15,79,0) 100%); /* FF3.6-15 */  */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db0f4f', endColorstr='#00db0f4f',GradientType=0 ); 
+
+
+}
+.intro-bottom{
+    height: 450px;
+}
+.project-picture--1.is-visible:before{
+    height:0px;
+    -moz-transition: all 0.8s cubic-bezier(0.18,0.89,0.48,1.02);
+    -webkit-transition: all 0.8s cubic-bezier(0.18,0.89,0.48,1.02);
+    transition: all 0.8s cubic-bezier(0.18,0.89,0.48,1.02);
+}
+.project-picture--1.is-visible{
+    top: 0px;
+    -moz-transition: all 1.8s cubic-bezier(0.18,0.89,0.48,1.02);
+    -webkit-transition: all 1.8s cubic-bezier(0.18,0.89,0.48,1.02);
+    transition: all 1.8s cubic-bezier(0.18,0.89,0.48,1.02);
+    -webkit-transition-delay: 0.7s; /* Safari */
+    transition-delay: 0.7s; 
+}
+
+
+
+.numberProject--2 {
+    background-image: url(../images/number-2.png);
+}
+.introResume-container {
+    background: #db0f4f;
+}
+.project-title{
+    line-height: 110px;
+}
+.project-title--blur {
+    position: absolute;
+    top: 18px;
+    right:10px;
+    font-size: 200px;
+    color: #D0144F;
+    z-index: 1;
+    letter-spacing: -10px;
+}
+
+.introResume-content-container .txt-corp-important {
+    line-height: 34px;
+}
+
+#sticky-offset {
+    display: none;
+}
+.blueBackground {
+    background: #3d499b;
+     background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% 50px,-moz-linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
+    background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% 50px,-webkit-linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
+    background: url(../images/keolitv--2/living-room.png) no-repeat 50% 3700px, url(../images/keolitv--2/family.png) no-repeat 50% 50px,linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);  
+    background-size: 100%;
+}
+
+
+
+/* SECTION : PRESCREEN */
+
+.preScreen {
+    height: inherit;
+}
+.preScreen-container {
+    width: 73%;
+    height: inherit;
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+}
+
+.preScreen-home {
+    width: 450px;
+    height: 1032px;
+    position: absolute;
+    top: 270px;
+    z-index: 2;
+    background-image: url(../images/keolitv--2/screen--home-night.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.preScreen-login {
+    width: 530px;
+    height: 1074px;
+    position: relative;
+    left: 213px;
+    z-index: 3;
+    background-image: url(../images/keolitv--2/screen--login.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+
+
+
+
+/* SECTION : BRANDING */
+
+section.branding{
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+
+.color-container{
+    width: 100%;
+    margin: auto;
+    padding-top: 25px;
+    margin-bottom: 70px;
+    position: relative;
+}
+.color-content{
+    padding-top: 150px;
+}
+.color-content .txt-corp{
+   color: white;
+}
+.color{
+    width: 450px;
+    height: 308px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    margin-bottom: -180px;
+}
+.color-txt{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 105px;
+    display: inline-block;
+    padding-left: 280px;
+    position: relative;
+}
+.color-txt:before{
+    content: "";
+    width: 270px;
+    display: inline-block;
+    border-top: 1px dashed rgba(255, 255, 255, 0.52);
+    position: absolute;
+    left: -23px;
+    top: 20px;
+    z-index: 10;
+}
+.color--1{
+    background-image: url(../images/keolitv--2/color--1.png);
+    z-index: 3;
+    margin-top: 30px;
+}
+.color--2{
+    background-image: url(../images/keolitv--2/color--2.png);
+    z-index: 1;
+}
+.color--3{
+   background-image: url(../images/keolitv--2/color--3.png);
+}
+
+
+
+.typo-container{
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 70px;
+}
+.typo-content{
+    padding-top: 70px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.typo-number{
+    margin:auto;
+    position: relative;
+    left: -10px;
+    margin-bottom: 50px;
+}
+.typo-type{
+    padding-left: 60px;
+    padding-right: 80px;
+    margin: auto;
+}
+.typo-type .txt-annex{
+    text-align: center;
+}
+.typo-type .typo{   
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    margin-top: 22px;
+    margin-bottom: 130px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.typo--din .typo{
+    background-image: url(../images/keolitv--2/din/din--typo.png);
+}
+.typo--avenir .typo{
+    background-image: url(../images/keolitv--2/avenir/avenir--typo.png);
+}
+.typo-example{
+    margin-bottom: 100px;
+}
+
+.typo-aa{
+    float: left;
+    width: 45%;
+    height: 100px;
+}
+.typo--din .typo-aa{
+    background-size: 100%;
+    background-repeat: no-repeat;
+     background-image: url(../images/keolitv--2/din/din--aa.png);
+}
+.typo--avenir .typo-aa{
+    background-size: 100%;
+    background-repeat: no-repeat;
+     background-image: url(../images/keolitv--2/avenir/avenir--aa.png);
+}
+.typo-letter-content{
+    float: right;
+    width: 45%;
+}
+.typo-letter{
+    width: 100%;
+    height: 15px;
+    margin-bottom: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.typo--din .typo-letter{
+    background-image: url(../images/keolitv--2/din/din--letter.png);
+}
+.typo--avenir .typo-letter{
+    background-image: url(../images/keolitv--2/avenir/avenir--letter.png);
+}
+.typo-letter-min{
+    width: 330px;
+    height: 15px;
+    margin-bottom: 25px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.typo--din .typo-letter-min{
+    background-image: url(../images/keolitv--2/din/din--letter-min.png);
+}
+.typo--avenir .typo-letter-min{
+    background-image: url(../images/keolitv--2/avenir/avenir--letter-min.png);
+}
+.typo-letter-number{
+    width: 150px;
+    height: 29px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.typo--din .typo-letter-number{
+    background-image: url(../images/keolitv--2/din/din--number.png);
+}
+.typo--avenir .typo-letter-number{
+    background-image: url(../images/keolitv--2/avenir/avenir--number.png);
+}
+
+
+
+section.appScreen--1 .txt-headTitle-container{
+    margin-bottom: 200px;
+}
+.content-container#tvShow-detail{
+    padding-bottom: 250px;
+}
+.appScreen-filter-container{
+    width: 751px;
+    margin: auto;
+    margin-top: -68px;
+    position: relative;
+    left: 50px;
+    margin-bottom: 300px;
+}
+.appScreen-home--now{
+    width: 400px;
+    height: 800px;
+    float: left;
+    background-image: url(../images/keolitv--2/screen--home-now.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 3;
+}
+#content_tvguide{
+    margin-top: -100px;
+    margin-bottom: 150px;
+}
+.appScreen-filter{
+    width: 351px;
+    height: 654px;
+    float: left;
+    position: relative;
+    left: -78px;
+    z-index: 1;
+    background-image: url(../images/keolitv--2/screen-filter.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.appScreen-detail{
+    width: 103%;
+    height: 1150px;
+    z-index: 4;
+    position: relative;
+    top: -26px;
+    background-image: url(../images/keolitv--2/screen-detail.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: -250px;
+}
+.blue-block{
+    width: 759px;
+    height: 380px;
+    background: rgba(10,42,93,1);
+    position: relative;
+    top: 282px;
+    left: -200px;
+    z-index: 1;
+    margin-bottom: -380px;
+    border-radius: 0px 0px 200px;
+}
+.appScreen-actor{
+    width: 100%;
+    height: 854px;
+    z-index: 4;
+    position: relative;
+    background-image: url(../images/keolitv--2/screen--actor-detail.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.appScreen-menu{
+    width: 100%;
+    height: 1054px;
+    z-index: 4;
+    position: relative;
+    background-image: url(../images/keolitv--2/screen--menu.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.content--left#actor_detail{
+    padding-top: 100px;
+}
+.content-container#screen-menu{
+    margin-top: -300px;
+}
+#menu-wrapper{
+    margin-bottom: -350px;
+}
+
+
+.appScreen--1{
+    margin-bottom: -292px;
+}
+.appScreen--1 .txt-headLine--first{
+    width: 300px;
+}
+
+
+
+.whiteGradientBackground{
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #f7f7f7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f7f7f7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#f7f7f7 100%);
+    margin-top: -270px;
+    padding-top: 200px;
+}
+
+
+#whitebackground{
+    margin-top: 150px;
+}
+
+.blueBackground-2{
+    width: 100%;
+    height: 850px;
+    background: #0A2C60;
+}
+.blueBackground-padding{
+    width: 100%;
+    height: 200px;
+    padding-top: 300px;
+    background: #0A2C60;
+    margin-top: -200px;
+    padding-bottom: 65px;
+}
+.sliderProgram{
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    background-image: url(../images/keolitv--2/slider-phone.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;   
+}
+.slider-wrapper{
+    width: 490px;
+    height: 280px;
+    background: #08325B;
+    position: relative;
+    left: -2px;
+    top: 67px;
+    margin: auto;
+    overflow: hidden;
+}
+.sliderImg{
+    width: 500px;
+    height: 288px;
+    background-image: url(../images/keolitv--2/screen--program.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.sliderHeader{
+    width: 490px;
+    height: 88px;
+    background-image: url(../images/keolitv--2/slider--header.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.sliderHour{
+    width: 752px;
+    height: 88px;
+    position: absolute;
+    top: 47px;
+    background-image: url(../images/keolitv--2/slider--hour.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+.sliderChannel{
+    width: 68px;
+    height: 288px;
+    background-image: url(../images/keolitv--2/slider-channel.png);
+    background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 80px;
+    z-index: 1;
+}
+.sliderTVshow{
+    width: 859px;
+    height: 288px;
+    background-image: url(../images/keolitv--2/slider--tvshow.png);
+    background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 83px;
+}
+
+
+
+
+
+
+.spacer {
+    min-height: 100px;
+}
+.spacer.s1 {
+    min-height: 400px;
+    width: 100%;
+}
+.cont{
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+.trigger{
+    position: fixed;
+    top: 307px;
+    left: 100px;
+    width: 100px;
+    height: 3Px;
+    background: red;
+    opacity: 0;
+}
+.footer--keolitv{
+    padding-top: 800px;
+    background: -moz-linear-gradient(top,  rgba(10,44,96,0) 0%, rgba(10,44,96,0.8) 40%, rgba(10,44,96,1) 60%, rgba(10,44,96,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(10,44,96,0) 0%,rgba(10,44,96,0.8) 40%,rgba(10,44,96,1) 60%,rgba(10,44,96,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(10,44,96,0) 0%,rgba(10,44,96,0.8) 40%,rgba(10,44,96,1) 60%,rgba(10,44,96,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000a2c60', endColorstr='#0a2c60',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+
+
+
+
+
+
+
+.footer-bottom{
+    background: #0F346B;
+}
+
+.arrow-up--blue{
+    background-image: url(../images/arrow-up--blue.svg);
+}
+#toutUnCafe .nextProject-title{
+    top: -25px;
+    left: 44px;
+    line-height: 46px;
+}
+.nextProject-title-container{
+    position: relative;
+    width: 350px;
+    height: 65px;
+    border-radius: 2px;
+    margin-top: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+    left: -60px;
+    top: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -webkit-transition: background .5s ease-in-out;
+    -webkit-transition-delay: .1s;
+}
+#toutUnCafe.nextProject-title-container{
+    background: #1C4889;
+    margin-top: 20px;
+    padding-top: 10px;
+    top: 30px;
+    left: -47px;
+    width: 264px;
+    padding-right: 65px;
+    top: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -webkit-transition: background .5s ease-in-out;
+    -webkit-transition-delay: .1s;
+}
+
+#toutUnCafe.nextProject-title-container:hover,
+#toutUnCafe.nextProject-title-container:hover:after{
+    background: #2E5895;
+    transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -webkit-transition: background .5s ease-in-out;
+    -webkit-transition-delay: .1s;
+}
+
+
+.nextProject-title-container .arrow{
+   opacity: 1;
+   width: 100px;
+   height: 36px;
+   background-size: contain;
+   position: absolute;
+   z-index: 5;
+    transition: right .3s ease-in-out;
+    -moz-transition: right .3s ease-in-out;
+    -webkit-transition: right .3s ease-in-out;
+    -webkit-transition-delay: .1s;
+}
+#toutUnCafe.nextProject-title-container .arrow{
+    top: 25px;
+    right: -65px;
+}
+#toutUnCafe.nextProject-title-container:hover .arrow{
+    right: -75px;
+
+}
+
+
+@media screen and (min-width: 1370px) and (max-width: 1445px) {
+    .blue-block{
+        width: 892px;
+        top: 279px;
+        height: 400px;
+    }
+    .appScreen-detail{
+        position:relative;
+        top:-70px;
+    }
+}
+
+   
+
+@media  screen and (min-width: 1680px) {
+    .project-picture--1 {
+        width: 1069px;
+        height: 1000px;
+        left: 15%;
+        background-size: 65%;
+    }
+    .preScreen-home{
+        width:500px;
+    }
+    .preScreen-login{
+        width:550px;
+        left: 160px;
+    }
+    .preScreen-container {
+         width: 890px;
+    }
+     section.branding{
+        margin-top: 300px;
+        margin-bottom: 800px;
+    }
+    .typo-container--project1{
+        margin-bottom: 300px;
+    }
+    .typo-content{
+     width: 1000px;
+     margin: auto;
+     margin-bottom: 300px;
+    }
+    .appScreen--1{
+        margin-top: 224px;
+    }
+    .appScreen-detail{
+        width:83%;
+    }
+    .appScreen-filter-container{
+        -ms-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .blueBackground{
+        padding-bottom: 280px;
+        margin-bottom: -495px;
+        background: url(../images/keolitv--2/living-room.png) no-repeat 50% 4200px, url(../images/keolitv--2/family.png) no-repeat 50% -150px,-moz-linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
+    background: url(../images/keolitv--2/living-room.png) no-repeat 50% 4200px, url(../images/keolitv--2/family.png) no-repeat 50% -150px,-webkit-linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);
+    background: url(../images/keolitv--2/living-room.png) no-repeat 50% 4200px, url(../images/keolitv--2/family.png) no-repeat 50% -150px,linear-gradient(top, rgba(41,72,118,1) 0%,rgba(10,42,93,1) 100%);  
+    background-size: 100%;
+    }
+    .blue-block{
+        width: 1020px;
+        height: 520px;
+        top: 485px;
+        border-radius: 0px 0px 1200px;
+        left: -246px;
+    }
+    .appScreen-detail{
+        width: 117%;
+        height: 1550px;
+        top: -150px;
+        z-index: 4;
+        position: relative;
+        background-image: url(../images/keolitv--2/screen-detail-max.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-bottom: -350px;
+    }
+    .appScreen-actor,
+    .appScreen-menu{
+        margin: auto;
+        width:450px;
+    }
+    #actor_wrapper{
+        margin-bottom:300px;
+    }
+    .blueBackground-2{
+        height:1500px;
+    }
+    .blueBackground-padding{
+        padding-bottom: 100px;
+    }
+    
+
+}
+
+
+
+
+
+
+

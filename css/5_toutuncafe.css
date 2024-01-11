@@ -1,0 +1,791 @@
+/* ========================================================================== */
+/* CSS TOUT UN CAFE - PORTFOLIO
+/* Copyright 2016, Alexandre PIDAULT
+/* ========================================================================== */
+
+
+.project-picture--1 {
+    display: block;
+    width: 669px;
+    height: 685px;
+    margin: auto;
+    left: 7%;
+    background-image: url(../images/img_project_toutuncafe.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 50px;
+}
+.project-picture--1:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 800px;
+    height: 1500px;
+background: -moz-linear-gradient(top,  rgba(191,191,191,1) 0%, rgba(191,191,191,1) 89%, rgba(191,191,191,0) 96%, rgba(191,191,191,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(191,191,191,1) 0%,rgba(191,191,191,1) 89%,rgba(191,191,191,0) 96%,rgba(191,191,191,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(191,191,191,1) 0%,rgba(191,191,191,1) 89%,rgba(191,191,191,0) 96%,rgba(191,191,191,0) 100%);
+
+
+
+}
+.project-picture--1.is-visible:before{
+    height:0px;
+    -moz-transition: all 0.8s cubic-bezier(0.18,0.89,0.48,1.02);
+    -webkit-transition: all 0.8s cubic-bezier(0.18,0.89,0.48,1.02);
+    transition: all 0.8s cubic-bezier(0.18,0.89,0.48,1.02);
+}
+.project-picture--1.is-visible{
+    top: 0px;
+    -moz-transition: all 1.8s cubic-bezier(0.18,0.89,0.48,1.02);
+    -webkit-transition: all 1.8s cubic-bezier(0.18,0.89,0.48,1.02);
+    transition: all 1.8s cubic-bezier(0.18,0.89,0.48,1.02);
+    -webkit-transition-delay: 0.7s; /* Safari */
+    transition-delay: 0.7s; 
+}
+
+.sectionTitle-container.is-black:after {
+    background: black;
+}
+.sectionTitle-container.is-black .sectionTitle-txt {
+    color: black;
+}
+ 	#headlineDiscover .txt-headLine--first{
+        width:320px;
+    }
+
+.numberProject--3{
+    background-image: url(../images/number-3.png);
+}
+.introResume-container {
+    background: #353333;
+}
+.project-title {
+    font-size: 92px;
+    font-family: 'Superclarendon-Black';
+    color: #FFF;
+    letter-spacing: -1px;
+    line-height: 70px;
+    margin-top: 145px;
+    margin-bottom: 85px;
+    position: relative;
+    z-index: 3;
+    line-height: 89px;
+}
+.project-title--blur {
+    position: absolute;
+    top: 18px;
+    right:10px;
+    font-size: 200px;
+    color: #474143;
+    z-index: 1;
+    letter-spacing: -10px;
+}
+
+.introResume-content-container .txt-corp-important {
+    line-height: 34px;
+}
+
+#sticky-offset {
+    display: none;
+}
+.intro-bottom{
+    height: 200px;
+}
+.blackBackground {
+    background: rgb(38,35,35);
+    background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4500px,-moz-linear-gradient(top, rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
+    background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4500px,-webkit-linear-gradient(top, rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
+    background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 4500px, linear-gradient(top, rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
+    background-size: 100%;
+}
+
+    
+
+
+
+/* SECTION : PRESCREEN */
+
+.preScreen {
+    margin-top: 350px;
+    height: inherit;
+}
+.preScreen-galery {
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    background-image: url(../images/toutuncafe--3/preScreen--galery.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+/* SPREADING COLOR BRANDING */
+
+ul.color-container {
+	width: 200px;
+	height: 310px;
+	margin: 0 auto 30px;
+	position: relative;
+    left: -15px;
+	padding: 0;
+	list-style-type: none;
+    opacity: 0;
+}
+
+.color {
+	width: 240px;
+	height: 280px;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	background: #fff;
+	box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.15);
+	pointer-events: auto;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border-radius: 20px;
+}
+
+.no-js ul.color-container {
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+
+.no-js ul.color-container .color {
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	height: 310px;
+	margin: 10px;
+}
+
+.color--1{
+   background: #C9AB3D;
+}
+.color--2{
+    background: #A0882E;
+}
+.color--3{
+   background: #ffffff; 
+}
+.color--4{
+    background: #414144;
+}
+.color--5{
+    background: #1B1A22;
+}
+
+
+.colorTxt-container{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    margin-top: 80px;
+}
+.colorTxt-container .txt-corp{
+    display: inline-block;
+    position: absolute;
+}
+.colorTxt--1{
+    left: 80px;
+    top: 90px;
+}
+.colorTxt--2{
+    left: 250px;
+    top: 20px;
+}
+.colorTxt--3{
+    right: 440px;
+    top: 0px;
+}
+.colorTxt--4{
+    right: 250px;
+    top: 20px;
+}
+.colorTxt--5{
+    right: 80px;
+    top: 90px;
+}
+
+
+
+
+
+
+/* SECTION : BRANDING */
+
+section.branding{
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
+
+
+.color-txt{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 105px;
+    display: inline-block;
+    padding-left: 280px;
+    position: relative;
+}
+
+
+
+
+.typo-container{
+    width: 100%;
+    margin-top: 300px;
+}
+.typo-content{
+    position: relative;
+    margin-bottom: 250px;
+}
+.typo-content--middle{
+    width: 485px;
+    float: right;
+}
+
+.typo-number{
+    float: left;
+    border-color: #4A4747;
+}
+
+.typo-type{
+    padding-left: 60px;
+    float: left;
+}
+
+.typo-type .typo{
+    width: 200px;
+    height: 65px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.typo--din .typo{
+    background-image: url(../images/toutuncafe--3/din/din--typo.png);
+}
+.typo--din14 .typo{
+    background-image: url(../images/toutuncafe--3/din14/din14--typo.png);
+    /* float: right; */
+}
+.typo--gotham .typo{
+    background-image: url(../images/toutuncafe--3/gotham/gotham--typo.png);
+}
+
+.typo-example{
+    margin-bottom: 100px;
+}
+
+.typo-aa{
+    float: left;
+    width: 350px;
+    height: 100px;
+}
+.typo--din .typo-aa{
+    background-size: 100%;
+    background-repeat: no-repeat;
+     background-image: url(../images/toutuncafe--3/din/din--aa.png);
+}
+.typo--din14 .typo-aa{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/toutuncafe--3/din14/din14--aa.png);
+    height: 110px;
+}
+.typo--gotham .typo-aa{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../images/toutuncafe--3/gotham/gotham--aa.png);
+    width: 400px;
+}
+
+
+
+.iconography-container{
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+
+.iconography-content{
+    width: 80%;
+    height: 100px;
+    padding: 0px 10%;
+    margin-top: 100px;
+}
+.iconography{
+    width: 15%;
+    height: 100px;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    float: left;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.icon-artiste{
+    background-image: url(../images/toutuncafe--3/icons/icon--artist.svg);
+    background-size: 57%;
+}
+.icon-galery{
+    background-image: url(../images/toutuncafe--3/icons/icon--galery.svg);
+}
+.icon-expo{
+    background-image: url(../images/toutuncafe--3/icons/icon--exposition.svg);
+}
+.icon-media{
+    background-image: url(../images/toutuncafe--3/icons/icon--media.svg);
+}
+.icon-about{
+    background-image: url(../images/toutuncafe--3/icons/icon--about.svg);
+}
+
+.icon-artiste--hover{
+    background-image: url(../images/toutuncafe--3/icons-hover/icon--artist-hover.svg);
+    background-size: 57%;
+}
+.icon-galery--hover{
+    background-image: url(../images/toutuncafe--3/icons-hover/icon--galery-hover.svg);
+}
+.icon-expo--hover{
+    background-image: url(../images/toutuncafe--3/icons-hover/icon--exposition-hover.svg);
+}
+.icon-media--hover{
+    background-image: url(../images/toutuncafe--3/icons-hover/icon--media-hover.svg);
+}
+.icon-about--hover{
+    background-image: url(../images/toutuncafe--3/icons-hover/icon--about-hover.svg);
+}
+
+
+
+
+.logoTuc-container{
+    padding-top: 100px;
+    margin-bottom: -200px;
+}
+.logoTuc{
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-image: url(../images/toutuncafe--3/logo-toutuncafe.png);
+     width: 270px;
+     height: 216px;
+     margin: auto;
+     margin-top: 100px;
+}
+
+
+
+
+.websiteScreen-container{
+    margin-top: 200px;
+}
+#websiteScreen-container--expo{
+    height: 400px;
+    position: relative;
+    top: -100px;
+}
+.websiteScreen-home{
+    width: 980px;
+    height: 800px;
+    background-image: url(../images/toutuncafe--3/screen--home.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    left: -80px;
+    top: -80px;
+    z-index: 3;
+}
+.websiteScreen-exposition{
+    width: 980px;
+    height: 800px;
+    background-image: url(../images/toutuncafe--3/screen--exposition.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    right: 0px;
+    top: 200px;
+    z-index: 3;
+}
+
+.expoInfo{
+    position: absolute;
+    border-radius: 4px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.43);
+}
+.expoInfo--painting{
+    width: 180px;
+    padding: 45px 0px;
+    text-align: center;
+    background: url(../images/toutuncafe--3/expoInfo--paint.png) no-repeat 114% 29px, #CAAD3E;
+    background-size: 70%;
+    left: 50px;
+    top: -100px;
+}
+.expoInfo--artist{
+    width: 160px;
+    padding: 37px 0px;
+    text-align: center;
+    background: url(../images/toutuncafe--3/expoInfo--artist.png) no-repeat 114% 29px, #151518;
+    background-size: 70%;
+    left: 340px;
+    z-index: 100;
+    top: 100px;
+}
+.expoInfo-number{
+    font-family: 'Superclarendon-Black';
+    font-size: 50px;
+    letter-spacing: -1px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.whiteBackground{
+    width: 100%;
+    padding-top: 450px;
+    margin-top: -550px;
+    background: white;
+}
+
+#artist-wrapper{
+    margin-top: -170px;
+}
+.websiteScreen-bioArtist{
+    width: 1020px;
+    height: 800px;
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+    left: -45px;
+    background-image: url(../images/toutuncafe--3/screen--artiste.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.websiteScreen-media{
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    margin-top: 130px;
+    top: 230px;
+    left: -50px;
+    position: relative;
+    background-image: url(../images/toutuncafe--3/screen-media.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.mediaPicture-container{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    right: -232px;
+    top: -31px;
+    z-index: 3;
+}
+.mediaPicture{
+    position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.mediaPicture--4{
+    width: 350px;
+    height: 300px;
+    background-image: url(../images/toutuncafe--3/pictureMedia--4.png);
+    top: 69px;
+    left: 190px;
+}
+.mediaPicture--3{
+    width: 280px;
+    height: 234px;
+    background-image: url(../images/toutuncafe--3/pictureMedia--3.png);
+    bottom: 181px;
+    left: 96px;
+}
+.mediaPicture--2{
+    width: 210px;
+    height: 280px;
+    background-image: url(../images/toutuncafe--3/pictureMedia--2.png);
+    bottom: -7px;
+    left: 66px;
+}
+.mediaPicture--1{
+    width: 214px;
+    height: 165px;
+    background-image: url(../images/toutuncafe--3/pictureMedia--1.png);
+    bottom: 1px;
+    left: -3px;
+}
+
+
+
+
+
+.blackBackground-2{
+    background: #1E1C1C;
+    padding: 100px;
+    padding-top: 300px;
+    margin-top: -150px;
+}
+.listArtist-container{
+    margin-top: 200px;
+    width: 400px;
+    margin: auto;
+
+}
+.listArtist-content p{
+    color: #948C8C;
+    font-family: 'Conduit-Light';
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    padding-bottom: 10px;
+}
+
+
+
+.listArtist-content-left{
+    float: left;
+    width: 42%;
+    padding-left: 9%;
+}
+.listArtist-content-right{
+    float: left;
+    width: 31%;
+    padding-left: 18%;
+}
+
+
+
+ .separator{
+    width: 100%;
+    height: 130px;
+}
+
+
+.spacer {
+	min-height: 100px;
+}
+.spacer.s1 {
+	min-height: 400px;
+    width: 100%;
+}
+.cont{
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+.trigger{
+    position: fixed;
+    top: 307px;
+    left: 100px;
+    width: 100px;
+    height: 3Px;
+    background: red;
+    opacity: 0;
+}
+.footer--toutuncafe{
+    padding-top: 600px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#262323+0,000000+100&0.1+14,1+23 */
+    background: -moz-linear-gradient(to bottom,  rgba(38,35,35,0.1) 0%,rgba(33,30,30,0.1) 14%,rgba(30,27,27,1) 23%,rgb(39, 38, 38) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(to bottom,  rgba(38,35,35,0.1) 0%,rgba(33,30,30,0.1) 14%,rgba(30,27,27,1) 23%,rgb(39, 38, 38) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(38,35,35,0.1) 0%,rgba(33,30,30,0.1) 14%,rgba(30,27,27,1) 23%,rgb(39, 38, 38) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a262323', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    top: -400px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-bottom{
+    background: #202121;
+}
+
+.arrow-up--black{
+    background-image: url(../images/arrow-up--black.svg);
+}
+.arrow-up{
+    box-shadow: 0px 2px 6px rgb(29, 27, 25);
+}
+#toutUnCafe .nextProject-title{
+    top: -25px;
+    left: 44px;
+    line-height: 46px;
+}
+.nextProject-title-container{
+    position: relative;
+    width: 350px;
+    height: 80px;
+    border-radius: 2px;
+    margin-top: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+    left: -60px;
+    top: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -webkit-transition: background .5s ease-in-out;
+    -webkit-transition-delay: .1s;
+}
+#toutUnCafe.nextProject-title-container{
+    background: #2C2C2D;
+    margin-top: 20px;
+    padding-top: 10px;
+    top: 30px;
+    left: -47px;
+    width: 259px;
+    padding-right: 65px;
+    top: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -webkit-transition: background .5s ease-in-out;
+    -webkit-transition-delay: .1s;
+}
+
+#toutUnCafe.nextProject-title-container:hover,
+#toutUnCafe.nextProject-title-container:hover:after{
+    background: #424244;
+    transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -webkit-transition: background .5s ease-in-out;
+    -webkit-transition-delay: .1s;
+}
+
+
+.nextProject-title-container .arrow{
+   opacity: 1;
+   width: 100px;
+   height: 36px;
+   background-size: contain;
+   position: absolute;
+   z-index: 5;
+    transition: right .3s ease-in-out;
+    -moz-transition: right .3s ease-in-out;
+    -webkit-transition: right .3s ease-in-out;
+    -webkit-transition-delay: .1s;
+}
+#toutUnCafe.nextProject-title-container .arrow{
+    top: 25px;
+    right: -65px;
+}
+#toutUnCafe.nextProject-title-container:hover .arrow{
+    right: -75px;
+}
+
+
+@media screen and (min-width: 1370px) and (max-width: 1445px) {
+    .preScreen{
+        height: 300px;
+    }
+}
+
+@media  screen and (min-width: 1680px) {
+    #project-picture {
+        position: relative;
+        top: 150px;
+        
+    }
+    .project-picture--1 {
+        background-size: 90%;
+    }
+
+    .blackBackground {
+        background: rgb(38,35,35);
+     background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 5000px,-webkit-linear-gradient(rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
+     background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 5000px,-o-linear-gradient(rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
+     background: url(../images/toutuncafe--3/background--logo.png) no-repeat 50% 5000px,linear-gradient(rgba(38,35,35,1) 0%, rgba(36,33,33,1) 100%);
+    background-size: 100%;
+    }
+    .typo-content{
+     margin: auto;
+     margin-bottom: 200px;
+    }
+    .preScreen-galery {
+        width: 1300px;
+        height: 800px;
+    }
+    .colorTxt-container{
+    	width: 76%;
+    	margin: auto;
+    	margin-top: 100px;
+    }
+    .iconography-container{
+    	margin-top: 300px;
+    }
+    .websiteScreen-bioArtist{
+    	width: 1250px;
+    	margin-top: 150px;
+    	margin-bottom: 300px;
+    }
+    .websiteScreen-media{
+    	width:1300px;
+    	margin-top: 211px;
+    }
+    .mediaPicture-container{
+    	-ms-transform: scale(1.2);
+    	-webkit-transform: scale(1.2);
+    	transform: scale(1.2);
+    	top: 74px;
+    }
+    .blackBackground-2{
+    	padding-top:400px;
+    	height: 800px;
+    	margin-bottom: -100px;
+    }
+    .listArtist-content p{
+		font-size: 17px;
+		letter-spacing: 0.5px;
+		margin-bottom:10px;
+	}
+    #headlineDiscover{
+        margin-top: 300px;
+    }
+    .separator{
+        width: 100%;
+        height: 150px;
+    }
+    .websiteScreen-exposition{
+        width: 1200px;
+        height: 900px;
+        right: -10%;
+    }
+    #websiteScreen-container--expo{
+       margin-bottom: 160px;
+    }
+}
+
+
+
+
+
+
