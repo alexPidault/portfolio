@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="124px" height="127px" viewBox="0 0 124 127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>icon--exposition-hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="9.49569671" width="124" height="65.6515115" rx="4"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="124" height="65.6515115" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="15.8417778" y="25.3426133" width="39.1582222" height="27.1661427" rx="3"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="39.1582222" height="27.1661427" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Artboard-1" transform="translate(-1222.000000, -8516.000000)" stroke="#C9AA3D">
+            <g id="icon" transform="translate(518.000000, 7834.000000)">
+                <g id="Group-7" transform="translate(0.000000, 236.000000)">
+                    <g id="icon-hover" transform="translate(80.000000, 444.000000)">
+                        <g id="icon--exposition-hover" transform="translate(624.000000, 3.000000)">
+                            <path d="M39.9128889,1.35208052 L20.6764444,122.4678" id="Path-33" stroke-width="3"></path>
+                            <path d="M105.543111,1.35208052 L85.1751111,123.599723" id="Path-33-Copy" stroke-width="3" transform="translate(95.359111, 62.475902) scale(-1, 1) translate(-95.359111, -62.475902) "></path>
+                            <use id="Rectangle-7" mask="url(#mask-2)" stroke-width="6" fill="#1C1D22" xlink:href="#path-1"></use>
+                            <use id="Rectangle-7" mask="url(#mask-4)" stroke-width="10" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
